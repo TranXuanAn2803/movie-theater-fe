@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Movie Theater
+> Đây là project cá nhân
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
+* [Features](#features)
+* [Database design](#database-design)
 
-## Available Scripts
+* [Project Status](#project-status)
+* [Contact](#contact)
+<!-- * [License](#license) -->
 
-In the project directory, you can run:
 
-### `npm start`
+## General Information
+- Một website đánh giá phim. Người dùng có thể dùng trang web này để giới thiệu một bộ phim hay hoặc tìm kiếm một bộ phim đã được giới thiệu. Webssite cho phép người dùng vote cho phim, review phim và phân loại phim. Nhờ vào những thông tin đánh giá và phân loại sẽ giúp cho việc tìm kiếm bộ phim yêu thích dễ dàng hơn
+- <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- Backend: java, spring-boot
+- Frontend: reactjs, reacthook
+- Database: MySql
 
-### `npm test`
+## Video demo
+[Click here](https://youtu.be/8bh6JsnQM9M)
+<!-- If you have screenshots you'd like to share, include them here. --> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+Features | Status
+------------ | -------------
+Danh sách phim | Done
+Tạo phim mới | Done
+Update thông tin phim | in process
+Xem chi tiết phim | in process
+Vote cho một phim | in process
+Viết review cho phim | Not Yet Started
+Tạo thể loại mới | in process
+Phân loại phim | Not Yet Started
+Xem danh sách phim theo thể loại | in process
+Xem danh sách các thể loại | Not Yet Started
+Xóa phim | Done
+Xóa thể loại | Not Yet Started
 
-### `npm run build`
+## Database design
+![image](https://github.com/TranXuanAn2803/movie-theater/assets/87705737/c2df77b0-9350-4e85-bdf3-13a5349a2dcb)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project Status
+Project đang trong giai doạn thực hiện. 
+Todolist
+- Tiếp tục phát triển các tính năng đang in process.
+- Fix các lỗi còn gặp
+- Deploy sản phẩm lên heroku/vercel
+- Phát triển thêm các tính năng như:  filter phim theo tên, theo ngày tháng; tạo danh sách phim yêu thích
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact 
+Created by [@tranxuanan](https://www.linkedin.com/in/tran-xuan-an-8b6174204/) - feel free to contact me!
