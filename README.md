@@ -4,7 +4,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
+* [Video demo](#video-demo)
 * [Features](#features)
 * [Database design](#database-design)
 
@@ -15,8 +15,6 @@
 
 ## General Information
 - Một website đánh giá phim. Người dùng có thể dùng trang web này để giới thiệu một bộ phim hay hoặc tìm kiếm một bộ phim đã được giới thiệu. Webssite cho phép người dùng vote cho phim, review phim và phân loại phim. Nhờ vào những thông tin đánh giá và phân loại sẽ giúp cho việc tìm kiếm bộ phim yêu thích dễ dàng hơn
-- <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
 - Backend: java, spring-boot
